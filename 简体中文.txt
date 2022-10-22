@@ -1,0 +1,678 @@
+[General]
+    Cancel=取消
+    Close=关闭
+
+    Open_Settings_Button=设置
+    Build_Rocket=建造火箭
+    Resume_Game=继续游戏
+    Return_To_Main_Menu=取消
+    Exit_To_Main_Menu=保存并退出
+
+[Main Menu]
+    Play=游戏
+
+# 教程
+    Video_Tutorials_OpenButton=视频教程
+    Video_Orbit=轨道教程
+    Video_Moon=登月教程
+    Video_Dock=对接教程
+
+# 社区
+    Community_OpenButton=社区
+    Community_Youtube=Youtube
+    Community_Discord=Discord
+    Community_Reddit=Reddit
+
+# 未来规划
+    Roadmap_OpenButton=未来规划
+
+    Roadmap_Text=1.51
+    Roadmap_Text=<color=grey>分级</color>
+    Roadmap_Text=
+    Roadmap_Text=1.52
+    Roadmap_Text=<color=grey>教程</color>
+    Roadmap_Text=
+    Roadmap_Text=1.53
+    Roadmap_Text=<color=grey>再入</color>
+    Roadmap_Text=
+    Roadmap_Text=1.54
+    Roadmap_Text=<color=grey>效果，粒子与声音</color>
+    Roadmap_Text=
+    Roadmap_Text=1.55
+    Roadmap_Text=<color=grey>固态火箭推进器</color>
+    Roadmap_Text=
+    Roadmap_Text=1.6
+    Roadmap_Text=<color=grey>宇航员</color>
+    Roadmap_Text=
+    Roadmap_Text=1.7
+    Roadmap_Text=<color=grey>生涯模式</color>
+    Roadmap_Text=
+    Roadmap_Text=1.8
+    Roadmap_Text=<color=grey>外行星</color>
+    Roadmap_Text=
+    Roadmap_Text=电力系统:
+    Roadmap_Text=<color=grey>电力系统将在今后翻新，最有可能推出离子发动机，燃烧时间跳跃以及更多。</color>
+    Roadmap_Text=
+    Roadmap_Text=
+    Roadmap_Text=请注意，计划有可能变更
+
+# 制作组
+    Credits_OpenButton=制作组
+    
+    Credits_Text=Štefo Mai Morojna
+    Credits_Text=<Size=55>设计，程序，美化</size>
+    Credits_Text=
+    Credits_Text=Jordi van der Molen
+    Credits_Text=<Size=55>程序</size>
+    Credits_Text=
+    Credits_Text=Chris Christo
+    Credits_Text=<Size=55>程序</size>
+    Credits_Text=
+    Credits_Text=Davi Vasc
+    Credits_Text=<Size=55>作曲</size>
+    Credits_Text=
+    Credits_Text=Ashton Mills
+    Credits_Text=<size=55>作曲</size>
+
+# 更新菜单
+    Update_Available=有一个新版本！
+    Update_Available=
+    Update_Available=旧版本: %old%
+    Update_Available=新版本: %new%
+
+    Update_Confirm=更新
+    Update_Overview_Video_Available=想看看这次更新了什么新内容吗？
+    Update_Overview_Video_Confirm=打开
+
+# 收费菜单
+    Rate_Title=你想要评价这个游戏吗？
+    Rate_Title=
+    Rate_Title=我们深切关心我们的游戏质量，您的反馈将帮助我们改进它。
+    Rate_Title=
+    Rate_Title=即使有成千上万的评论，我们仍然会阅读其中大量的评论！
+
+    Rate_Confirm=比率
+
+# 关闭菜单
+    Close_Game=离开游戏
+
+# 启动消息
+    Early_Supporter_Message=作为早期支持者，您可以免费获得：
+    Early_Supporter_Message=
+    Early_Supporter_Message= - 部件拓展包
+    Early_Supporter_Message= - 皮肤拓展包
+    Early_Supporter_Message= - 星球拓展包
+    Early_Supporter_Message=
+    Early_Supporter_Message=感谢您的支持！
+
+[Worlds Menu]
+    Create_New_World_Button=创建新世界
+
+# 创建菜单
+    Create_World_Title=世界名
+    Default_World_Name=我的世界
+
+# 删除菜单
+    World_Delete=删除世界？
+
+# 选择星系菜单
+    Select_Solar_System=选择世界的星系
+
+    Select_Solar_System__NotFound=Solar system could not be found: 找不到星系：
+    Select_Solar_System__NotFound=%system%
+    Select_Solar_System__NotFound=
+    Select_Solar_System__NotFound=选择世界的星系
+
+    Default_Solar_System=太阳系 (默认)
+    Custom_Solar_System=%name% (拓展)
+
+# 世界游戏时间
+    Last_Played=上次游戏时间: %value% 前
+    Just_Played=上次游戏时间: 刚刚
+    Time_Played=游戏时间: %value%
+
+[Saving]
+# 蓝图是火箭设计后保存。
+    Blueprints_Menu_Title=蓝图
+    Unnamed_Blueprint=未命名蓝图
+    Save_Blueprint=保存蓝图
+    Load_Blueprint=加载蓝图
+    Cannot_Save_Empty_Build=无法保存空蓝图
+
+# 存档点让玩家可以随时保存并返回到它。
+# 它不一定非得叫存档点，玩家只需要了解它的用途就可以了
+    Quicksaves_Menu_Title=存档点
+    Unnamed_Quicksave=未命名存档点
+    Create_Quicksave=创建存档点
+    Load_Quicksave=加载存档点
+
+# 保存和加载菜单;在蓝图 / 存档点的介绍中可以看到上下文
+    Save=保存
+    Load=加载
+    Delete=删除
+    Rename=重命名
+
+# 进行中
+    Saving_In_Progress=保存中...
+    Loading_In_Progress=加载中...
+
+# 注入
+    Blueprint{0}=蓝图
+    Blueprint{1}=蓝图
+    Blueprint{2}=蓝图
+
+    Quicksave{0}=蓝图
+    Quicksave{1}=蓝图
+    Quicksave{2}=蓝图
+
+# 覆盖菜单;
+    File_Already_Exists=名叫 %filetype{1}% 的文件已经存在
+    Overwrite_File=覆盖 %filetype{1}%
+    New_File=新 %filetype{1}%
+
+# 崩溃
+    Load_Failed=无法从 %filetype{1}% 加载 %filepath%
+
+# 遗产
+    Conversion_Message=欢迎来到1.5版本。
+    Conversion_Message=
+    Conversion_Message=您所有的1.4存档已自动转换为1.5存档
+
+    Conversion_Success=检测到 1.4 %filetype{1}% 文件并将其转换为 %version% 文件
+
+    Conversion_Failed=检测到 1.4 %filetype{1}% 文件并将其转换为 %version% 文件
+    Conversion_Failed=
+    Conversion_Failed=转换失败:
+    Conversion_Failed=%reason%
+
+[Purchasing]
+    Parts_Expansion=部件拓展包
+    Skins_Expansion=皮肤拓展包
+    Planets_Expansion=星球拓展包
+    Expansion_Bundle=拓展组合包
+    Upgrade_To_Bundle=升级为组合包
+
+    More_Parts=更多的部件...
+    More_Skins=更多的皮肤...
+
+    Why_Buy=你的支持将帮助我们改进游戏！
+
+    Buy_Product=购买 %product% %price%
+
+    Purchase_Thanks_Msg=购买: %product%
+    Purchase_Thanks_Msg=
+    Purchase_Thanks_Msg=感谢您的购买
+    Purchase_Thanks_Msg=现在去探索行星吧!
+
+    Owned=%product% (已购买)
+
+    Restore_Open=恢复
+
+    Restore_Text=安卓设备上的交易将会在启动时自动检测
+    Restore_Text=
+    Restore_Text=-检测您是否登录了已购买物品的Google Play账号(检查Google Play购买历史中是否能查到该购买记录)
+    Restore_Text=
+    Restore_Text=-检查购买按钮，如果没有显示价格，则说明游戏没有连接至商店，请检查网络并重启游戏。
+    Restore_Text=
+    Restore_Text=如果以上方法都没有用，请通过邮件联系我们: games.morojna@gmail.com
+    Restore_Text=
+    Restore_Text=您也可以尝试等待一会儿，购买的物品有时会在几个小时后自动恢复。
+
+    Purchase_FAQ_Open=帮助
+
+    Purchase_FAQ_Text=<color=grey>购买的物品在更新后会保留吗？</color>
+    Purchase_FAQ_Text=是的，当然会。
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>购买的物品有可能丢失吗？</color>
+    Purchase_FAQ_Text=您购买的物品将永久保存在您的账号中，即使重装游戏或更换手机都不会丢失。
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=
+    Purchase_FAQ_Text=<color=grey>可以退款吗？</color>
+    Purchase_FAQ_Text=可以。只要您在规定时间内提交申请，我们将会无条件退款。
+
+    PartsExpansion_Tanks=各种各样的燃料箱！
+    PartsExpansion_Engines=重型引擎！
+    PartsExpansion_Parts=各种形状、尺寸的部件！
+
+    PartsExpansion_Build=更大的建造空间，
+    PartsExpansion_Build=让您的想象变成现实！
+
+#皮肤扩展
+    SkinsExpansion_Tanks=给您的部件绘上各种各样的皮肤！
+    SkinsExpansion_Interstages=从连接器
+    SkinsExpansion_Nosecones=到鼻锥
+    SkinsExpansion_Fairings=甚至是整流罩都涂上颜色。
+
+# 行星拓展
+    PlanetsExpansion_Jupiter=探索木星和它的四颗卫星！
+    PlanetsExpansion_Callisto=从Callisto满是陨石坑的地表，
+    PlanetsExpansion_Europa=到Europa广阔的冰原！
+
+    PlanetsExpansion_Conclusion=遥远的天外世界正等着你
+    PlanetsExpansion_Conclusion=去探索！
+
+# 拓展组合
+    ExpansionBundle_Sandbox=附赠
+    ExpansionBundle_Sandbox=沙盒模式
+
+    ExpansionBundle_Infinite_Fuel=无重力
+    ExpansionBundle_No_Atmospheric_Drag=牢不可破的部件
+    ExpansionBundle_Unbreakable_Parts=无限燃料
+    ExpansionBundle_No_Gravity=无大气阻力
+
+[Settings]
+    Music_Name=音乐:
+    Sound_Name=音效:
+    Screen_Rotation_Name=屏幕旋转:
+    FPS_Name=帧数:
+    Language_Name=语言:
+
+    Infinite_Fuel_Name=无限燃料:
+    No_Atmospheric_Drag_Name=无大气阻力:
+    Unbreakable_Parts_Name=牢不可破的部件:
+    No_Gravity_Name=无重力:
+
+# 作弊显示在屏幕上，让玩家知道他们在使用什么作弊
+    Cheat_On{0}=开
+    Cheat_Off{0}=关
+
+    Infinite_Fuel=无限燃料: %value{0}%
+    No_Atmospheric_Drag=无大气阻力: %value{0}%
+    Unbreakable_Parts=牢不可破的部件: %value{0}%
+    No_Gravity=无重力: %value{0}%
+
+[Build]
+
+    Build_New_Rocket=建造新火箭
+    Resume_Build=继续建造
+
+    Symmetry_On=对称: 开
+    Symmetry_Off=对称: 关
+
+    Launch_Button=发射
+    Move_Rocket_Button=移动火箭
+
+# 清空菜单
+    Clear_Warning=是否清空蓝图?
+    Clear_Confirm=清空蓝图
+
+# 提示菜单
+    Missing_Capsule=你的火箭没有控制
+    Missing_Parachute=你的火箭没有降落伞
+
+    Too_Heavy=你的火箭太重了，无法发射。
+    Too_Heavy=
+    Too_Heavy=
+    Too_Heavy=请减轻重量或使用更强劲的引擎。
+
+    Launch_Anyway_Button=仍然发射
+
+# 火箭菜单
+    Example_Rockets_OpenMenu=示例火箭
+    Basic_Rocket=基础火箭
+    Stages=分级火箭
+    Ideal_Stages=更好的分级火箭
+    Lander=着陆器
+
+[Map]
+    Toggle_Map_Button=地图
+
+# 当轨道离开行星引力场时，它会显示在地图上
+
+    Escape=离开
+
+# 当轨道切入行星引力场时，它会显示在地图上
+    Encounter=切入
+
+# 当轨道与目标火箭轨道交汇时时，它会显示在地图上
+    Rendezvous=交汇
+
+# 显示行星的发射窗口
+
+    Transfer=发射窗口
+
+[Game]
+
+    Throttle_On=开
+    Throttle_Off=关
+
+# 游戏支持屏幕旋转，我们在垂直模式下分成两行
+    Height_Terrain_Vertical=高度 (地形):
+    Height_Terrain_Vertical=
+    Height_Terrain_Vertical=%height%
+
+    Height_Vertical=高度:
+    Height_Vertical=
+    Height_Vertical=%height%
+
+    Velocity_Vertical=速度:
+    Velocity_Vertical=
+    Velocity_Vertical=%speed%
+
+# 角度表示玩家可以旋转火箭的最佳角度/方向
+    Angle_Vertical=角度:
+    Angle_Vertical=
+    Angle_Vertical=%angle% / %targetAngle%
+
+    Height_Terrain_Horizontal=高度 (地形): %height%
+    Height_Horizontal=高度: %height%
+    Velocity_Horizontal=速度: %speed%
+
+# 角度表示玩家可以旋转火箭的最佳角度/方向
+    Angle_Horizontal=角度: %angle% / %targetAngle%
+
+[Game menus]
+
+    Restart_Mission=重新开始任务
+
+# 恢复菜单
+    Restart_Mission_To_Launch=恢复至发射
+
+    Restart_Mission_To_Launch_Warning=是否恢复至发射？
+    Restart_Mission_To_Launch_Warning=
+    Restart_Mission_To_Launch_Warning=这将会恢复至发射阶段。
+
+    Restart_Mission_To_Build=恢复至建造
+
+    Restart_Mission_To_Build_Warning=是否恢复至建造?
+    Restart_Mission_To_Build_Warning=
+    Restart_Mission_To_Build_Warning=这将会恢复至建造阶段。
+
+# 结束任务菜单
+    End_Mission_Menu_Title=任务成就:
+    End_Mission=结束任务
+
+# 清除残骸
+    Clear_Debris_Warning=是否清除残骸？
+    Clear_Debris_Warning=
+    Clear_Debris_Warning=这将会清除所有没有控制的火箭。
+
+    Clear_Debris_Confirm=清除残骸
+
+# 选择菜单
+    Navigate_To=目标
+    End_Navigation=取消目标
+    Focus=聚焦
+    Unfocus=取消聚焦
+    Switch_To=切换
+
+[Rocket]
+    Default_Rocket_Name=火箭
+
+# 当玩家操控的火箭没有载人舱或探测器时显示
+    No_Control_Msg=没有控制
+
+[Timewarp]
+# 时间加速可以快进时间以跳过长时间的等待
+    Msg_Timewarp_Speed=时间加速 %speed%x
+    Cannot_Timewarp_Below=高度低于 %height% 时不能时间加速
+    Cannot_Timewarp_While_Moving_On_Surface=在行星表面移动时不能时间加速
+    Cannot_Timewarp_While_Accelerating=加速时不能时间加速
+    Cannot_Use_Part_While_Timewarping=时间加速时不能使用 %part{1}%
+    Cannot_Turn_While_Timewarping=时间加速时不能转动
+
+[Units]
+
+    Thrust_To_Weight_Ratio=推力 / 重量: %value%
+    Mass=质量: %value%吨
+    Thrust=推力: %value%吨
+    Burn_Time=燃烧时间: %value%秒
+
+
+    Efficiency=效率: %value% lsp
+    Mass_Unit=吨
+    Meter_Unit=米
+    Km_Unit=千米
+    Meter_Per_Second_Unit=米/秒
+
+[Timestamps]
+    Second_Short=%value%秒
+    Minute_Short=%value%分
+    Hour_Short=%value%时
+    Day_Short=%value%天
+
+[Resource Types]
+
+    Solid_Fuel{0}=电力
+    Solid_Fuel{1}=电力
+    Liquid_Fuel{0}=液体燃料
+    Liquid_Fuel{1}=液体燃料
+
+[Resource Uses]
+    Resource_Bars_Title=%resource_name{0}%:
+    Info_Resource_Amount=%resource{0}%: %amount%
+    Msg_No_Resource_Source=没有 %resource{1}% 
+    Msg_No_Resource_Left=没有 %resource{1}%
+
+[Part Categories]
+
+    Basic_Parts=基础
+    Six_Wide_Parts=6格
+    Eight_Wide_Parts=8格
+    Ten_Wide_Parts=10格
+    Twelve_Wide_Parts=12格
+    Engine_Parts=引擎
+    Aerodynamics_Parts=空气动力
+    Fairings_Parts=整流罩
+    Structural_Parts=结构
+    Other_Parts=其它
+
+[Part Names]
+    Capsule_Name{0}=载人舱
+    Capsule_Name{1}=载人舱
+    Probe_Name{0}=无人探测器
+    Probe_Name{1}=无人探测器
+    Parachute_Name{0}=降落伞
+    Parachute_Name{1}=降落伞
+    Kolibri_Engine_Name{0}=蜂鸟引擎
+    Kolibri_Engine_Name{1}=蜂鸟引擎
+    Hawk_Engine_Name{0}=猎鹰引擎
+    Hawk_Engine_Name{1}=猎鹰引擎
+    Valiant_Engine_Name{0}=英雄引擎
+    Valiant_Engine_Name{1}=英雄引擎
+    Titan_Engine_Name{0}=泰坦引擎
+    Titan_Engine_Name{1}=泰坦引擎
+    Frontier_Engine_Name{0}=开拓者引擎
+    Frontier_Engine_Name{1}=开拓者引擎
+    Ion_Engine_Name{0}=离子引擎
+    Ion_Engine_Name{1}=离子引擎
+    RCS_Thruster_Name{0}=RCS推进器
+    RCS_Thruster_Name{1}=RCS推进器
+    Fuel_Tank_Name{0}=燃料箱
+    Fuel_Tank_Name{1}=燃料箱
+    Separator_Name{0}=分离器
+    Separator_Name{1}=分离器
+    Side_Separator_Name{0}=侧分离器
+    Side_Separator_Name{1}=侧分离器
+    Structural_Part_Name{0}=结构
+    Structural_Part_Name{1}=结构
+    Landing_Leg_Name{0}=着陆器
+    Landing_Leg_Name{1}=着陆器
+    Aerodynamic_Nose_Cone_Name{0}=空气动力学鼻锥
+    Aerodynamic_Nose_Cone_Name{1}=空气动力学鼻锥
+    Aerodynamic_Fuselage_Name{0}=空气动力学鼻锥
+    Aerodynamic_Fuselage_Name{1}=空气动力学鼻锥
+    Fairing_Name{0}=整流罩
+    Fairing_Name{1}=整流罩
+    Rover_Wheel_Name{0}=漫游轮
+    Rover_Wheel_Name{1}=漫游轮
+    Docking_Port_Name{0}=对接口
+    Docking_Port_Name{1}=对接口
+    Solar_Panel_Name{0}=太阳能电池板
+    Solar_Panel_Name{1}=太阳能电池板
+    Battery_Name{0}=电池
+    Battery_Name{1}=电池
+    RTG_Name{0}=同位素电量产生器
+    RTG_Name{1}=同位素电量产生器
+
+[Part Descriptions]
+    Capsule_Description=搭载着一名宇航员的小型太空舱
+    Probe_Description=适用于单程任务的无人探测器
+    Parachute_Description=用于着陆的降落伞
+    Fuel_Tank_Description=装有液态燃料和液态氧的燃料箱
+    Separator_Description=用于分离无用分级的分离器
+    Side_Separator_Description=用于分离侧边助推器的分离器
+    Landing_Leg_Description=用于在卫星或行星面着陆的可伸缩支架
+    Structural_Part_Description=轻盈而坚固的结构部件
+    Hawk_Engine_Description=高推力，低效率的引擎，通常用于火箭的第一级
+    Titan_Engine_Description=高推力，低效率的引擎，通常用于火箭的第一级
+    Valiant_Engine_Description=低推力，高效率。适用于高推力不是最重要的太空环境
+    Frontier_Engine_Description=低推力，高效率。适用于高推力不是最重要的太空环境
+    Kolibri_Engine_Description=适用于着陆器的小型引擎
+    Ion_Engine_Description=有着超高效率的低推力引擎
+    RCS_Thruster_Description=用于对接的小型定向推进器
+    Aerodynamic_Nose_Cone_Description=空气动力前锥体，用于改善侧边助推器的空气动力
+    Aerodynamic_Fuselage_Description=用于覆盖引擎的空气动力机身
+    Fairing_Description=用于封装有效载荷的空气动力整流罩
+    Battery_Description=用来储存电力的电池
+    Solar_Panel_Description=展开后可以用来发电的太阳能电池板
+    RTG_Description=放射性同位素温差发电器
+    Rover_Wheel_Description=用于在行星表面行驶的漫游轮
+    Docking_Port_Description=用于连接两个火箭的对接口
+
+[Modules]
+    Torque_Module_Torque=扭力: %value%kN
+    Separation_Force=分离力: %value%kN
+
+    State_On{0}=开
+    State_Off{0}=关
+
+    Engine_Module_State=引擎 %state{0}%
+    Engine_On_Label=引擎 开
+
+    Msg_RCS_Module_State=RCS %state{0}%
+
+    Wheel_Module_State=漫游轮 %state{0}%
+    Wheel_On_Label=漫游轮 开
+
+    Panel_Expanded=展开
+    Landing_Leg_Expanded=开启
+
+    Info_Parachute_Max_Height=最大展开高度: %height%
+    Msg_Cannot_Deploy_Parachute_In_Vacuum=不能在真空中展开降落伞
+    Msg_Cannot_Deploy_Parachute_Above=不能在高于 %height% 时展开降落伞
+    Msg_Cannot_Fully_Deploy_Above=不能在高于 %height% 时完全展开降落伞
+    Msg_Cannot_Deploy_Parachute_While_Faster=不能在速度超过 %velocity% 时展开降落伞
+    Msg_Cannot_Deploy_Parachute_While_Not_Moving=不移动时不能展开降落伞
+    Msg_Parachute_Half_Deployed=降落伞半展开
+    Msg_Parachute_Fully_Deployed=降落伞完全展开
+    Msg_Parachute_Cut=降落伞切割
+
+[Planets]
+    Sun{0}=Sun
+    Sun{1}=Sun
+    Sun{2}=Sun
+    Mercury{0}=Mercury
+    Venus{0}=Venus
+    Earth{0}=Earth
+    Earth{1}=Earth
+    Earth{2}=Earth
+    Earth{3}=Earth
+    Moon{0}=Moon
+    Moon{1}=Moon
+    Moon{2}=Moon
+    Mars{0}=Mars
+    Phobos{0}=Phobos
+    Deimos{0}=Deimos
+    Jupiter{0}=Jupiter
+    Jupiter{1}=Jupiter
+    Jupiter{2}=Jupiter
+    Jupiter{3}=Jupiter
+    Europa{0}=Europa
+    Ganymede{0}=Ganymede
+    Io{0}=Io
+    Callisto{0}=Callisto
+
+[Achievements]
+    Reached_Low_Orbit=到达环绕 %planet{0}% 低轨道
+    Reached_High_Orbit=到达环绕 %planet{0}% 高轨道
+    Descend_Low_Orbit=下降到 %planet{0}% 低轨道
+    Capture_Low_Orbit=被 %planet{0}% 捕获至低轨道
+    Capture_High_Orbit=被 %planet{0}% 捕获至高轨道
+
+    Entered_Lower_Atmosphere=进入 %planet{3}% 低层大气
+    Entered_Upper_Atmosphere=进入 %planet{3}% 高层大气
+    Left_Lower_Atmosphere=到达 %planet{3}% 高层大气
+    Left_Upper_Atmosphere=离开 %planet{3}% 大气层
+    Landed=降落在 %planet{1}% 表面
+    Crashed_Into_Terrain=撞在 %planet{1}% 表面
+
+    Entered_SOI=进入 %planet{1}% 引力范围
+    Escaped_SOI=离开 %planet{1}% 引力范围
+
+    Docked_Suborbital=形成环绕 %planet{1}% 高轨道
+    Docked_Orbit_Low=形成环绕 %planet{0}% 低轨道
+    Docked_Orbit_Transfer=形成环绕 %planet{1}% 转移轨道
+    Docked_Orbit_High=形成环绕 %planet{0}% 高轨道
+    Docked_Escape=在环绕 %planet{1}% 的轨道对接
+    Docked_Surface=在 %planet{1}% 表面对接
+
+    Recover_Home=安全返回 %planet{1}%
+    Recover_Landed=结束了 %planet{1}% 表面的任务
+    Recover_Space=结束了 %planet{1}% 太空的任务
+    
+    #22年10月22日1.5.8更新
+    #作者真的不会写语言
+    #翻译还得看错误一个一个找
+    
+    Help=Help
+    
+    [None]
+    None=None
+    Font=normal
+    
+    [General]
+    Open_Cheats_Button=作弊
+    Help=帮助
+    
+    [Main Menu]
+
+# Close menu
+    Exit_Button=关闭
+    Close_Game=
+    Close_Game=
+    Close_Game=你确定吗?
+    
+    Community_Forums=Forums
+    [Worlds Menu]
+    World_Difficulty_Name=难度: %value%
+    Difficulty_Normal=经典
+    Difficulty_Hard=困难
+    Difficulty_Realistic=真实
+    
+    World_Mode_Name=模式: %value%
+    Mode_Classic=经典模式
+    Mode_Career=生涯模式
+    Mode_Sandbox=沙盒模式
+    
+    [World Create Menu]
+    World_Create_Title=创建新世界
+    World_Name_Label=世界名:
+    Solar_System_Label=星系:
+    Mode_Label=模式:
+    Difficulty_Label=难度:
+
+    Difficulty_Scale_Stat=比例：1:%scale%
+    Difficulty_Isp_Stat=比重：%value%x
+    Difficulty_Dry_Mass_Stat=油箱净重：%value%x
+    Difficulty_Engine_Mass_Stat=发动机质量：%value%x
+    
+    [Saving]
+    Import=导入
+    Delete_File_With_Type=删除 %filename% %filetype{1}%
+    Importing_In_Progress=导入中...
+    
+    [Purchasing]
+    Open_Shop_Menu=拓展包
+    Redstone_Atlas_Pack=红石阿特拉斯包
+    Cheats_Expansion=作弊包
+    Infinite_Area_Expansion=无限建筑空间包
+    Builder_Bundle=建造捆绑包
+    Sandbox_Bundle=沙盒拓展包
+    Full_Bundle=完整包
+    Upgrade_To_Full_Bundle=升级到完整包
+    Mac_Full_Version=完整版本
+    Cannot_Use_Cheats_In_Career=作弊只能在沙盒模式的世界中使用
+    Get_Infinite_Build_Area_Button=获取无限建筑空间包
+    Get_Cheats_Expansion_Button=获取作弊包
